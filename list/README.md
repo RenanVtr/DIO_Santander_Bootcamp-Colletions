@@ -5,7 +5,7 @@ Exercícios:
     2. Pesquisa em List
     3. Ordenação nas List
 
-## Operações Básicas com List
+## Exercício 1 - Operações Básicas com List
 ### 1. Lista de Tarefas
 
 Crie uma classe chamada "ListaTarefas" que possui uma lista de tarefas como atributo. Cada tarefa é representada por uma classe chamada "Tarefa" que possui um atributo de descrição. Implemente os seguintes métodos:
@@ -18,7 +18,7 @@ Crie uma classe chamada "ListaTarefas" que possui uma lista de tarefas como atri
 
 ``obterDescricoesTarefas()``: Retorna uma lista contendo a descrição de todas as tarefas na lista.
 
-### 2. Carrinho de Compras
+### 2. Carrinho de Compras:
 Crie uma classe chamada "CarrinhoDeCompras" que representa um carrinho de compras online. O carrinho deve ser implementado como uma lista de itens. Cada item é representado por uma classe chamada "Item" que possui atributos como nome, preço e quantidade. Implemente os seguintes métodos:
 
 ``adicionarItem(String nome, double preco, int quantidade)``: Adiciona um item ao carrinho com o nome, preço e quantidade especificados.
@@ -29,7 +29,7 @@ Crie uma classe chamada "CarrinhoDeCompras" que representa um carrinho de compra
 
 ``exibirItens()``: Exibe todos os itens presentes no carrinho, mostrando seus nomes, preços e quantidades.
 
-## Pesquisa em List
+## Exercício 2 - Pesquisa em List
 ### 1. Catálogo de Livros
 Crie uma classe chamada "CatalogoLivros" que possui uma lista de objetos do tipo "Livro" como atributo. Cada livro possui atributos como título, autor e ano de publicação. Implemente os seguintes métodos:
 
@@ -54,7 +54,8 @@ Crie uma classe chamada "SomaNumeros" que possui uma lista de números inteiros 
 
 ``exibirNumeros()``: Retorna uma lista contendo todos os números presentes na lista.
 
-## Ordenação em List
+
+## Exercício 3-  Ordenação em List
 ### 1. Ordenação de Pessoas
 Crie uma classe chamada "OrdenacaoPessoas" que possui uma lista de objetos do tipo "Pessoa" como atributo. Cada pessoa possui atributos como nome, idade e altura. Implemente os seguintes métodos:
 
@@ -72,3 +73,8 @@ Crie uma classe chamada "OrdenacaoNumeros" que possui uma lista de números inte
 ``ordenarAscendente()``: Ordena os números da lista em ordem ascendente usando a interface Comparable e a class Collections.
 
 ``ordenarDescendente()``: Ordena os números da lista em ordem descendente usando um Comparable e a class Collections.
+
+
+## Referência
+
+ - [List Interface](https://github.com/cami-la/collections-java-api-2023/tree/master/src/main/java/list)
