@@ -77,4 +77,4 @@ Crie uma classe chamada "OrdenacaoNumeros" que possui uma lista de números inte
 
 ## Referência
 
- - [List Interface](https://github.com/cami-la/collections-java-api-2023/tree/master/src/main/java/list)
+ - ["List Interface". CAVALCANTE, Camila. 2023](https://github.com/cami-la/collections-java-api-2023/tree/master/src/main/java/list)
