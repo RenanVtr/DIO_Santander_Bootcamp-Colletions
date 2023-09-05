@@ -23,4 +23,13 @@ public class Tarefa {
     }
 
 
+    //toString
+    @Override
+    public String toString() {
+        return  descricao ;
+    }
+
+
+    
+
 }
