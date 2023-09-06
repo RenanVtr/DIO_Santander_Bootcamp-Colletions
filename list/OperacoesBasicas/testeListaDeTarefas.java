@@ -1,6 +1,6 @@
 package list.OperacoesBasicas;
 
-public class testeListaDeTarefas {
+public class TesteListaDeTarefas {
     
 public static void main(String[] args) {
     
