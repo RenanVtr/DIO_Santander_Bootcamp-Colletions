@@ -41,7 +41,8 @@ public class OrdenacaoNumeros implements Comparable<OrdenacaoNumeros>{
         //Criando uam copia da lista de numeros
         List<Integer> ordenadoDescendenteList = new ArrayList<>(ordenacaoNumerosList);
         //Ordenando a copia de forma descendente
-        Collections.reverse(ordenarAscendente());
+        Collections.sort(ordenadoDescendenteList);
+        Collections.reverse(ordenadoDescendenteList);
         return ordenadoDescendenteList;
     }
 
@@ -51,7 +52,7 @@ public class OrdenacaoNumeros implements Comparable<OrdenacaoNumeros>{
     //TOSTRING
     @Override
     public String toString() {
-        return "OrdenacaoNumeros " + ordenacaoNumerosList;
+        return "Lista de numeros: " + ordenacaoNumerosList;
     }
 
 
@@ -59,8 +60,13 @@ public class OrdenacaoNumeros implements Comparable<OrdenacaoNumeros>{
 
     @Override
     public int compareTo(OrdenacaoNumeros o) {
-        return Integer.compare(, o);
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'compareTo'");
     }
+
+
+
+
 
 
 
